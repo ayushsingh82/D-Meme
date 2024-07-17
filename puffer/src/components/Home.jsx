@@ -109,13 +109,13 @@ const TypewriterEffectSmoothDemo = () => {
             text: "Run",
         },
         {
-            text: "Nodes",
+            text: "Game",
         },
         {
             text: "with",
         },
         {
-            text: "Puffer.",
+            text: "DChain.",
             className: "text-purple-500 dark:text-purple-500",
         },
     ];
