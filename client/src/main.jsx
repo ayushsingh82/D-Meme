@@ -6,7 +6,7 @@ import {createBrowserRouter,RouterProvider,createRoutesFromElements} from 'react
 import { Route } from 'react-router-dom'
 import Home from './components/Home.jsx'
 import Navbar from './components/Navbar.jsx'
-import Yield from './components/Yield.jsx'
+import Create from './components/Create.jsx'
 
 import '@rainbow-me/rainbowkit/styles.css';
 
@@ -39,7 +39,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
     <Route path='/' element={<Home/>}/>
-    <Route path='/yield' element={<Yield/>}/>
+    <Route path='/create' element={<Create/>}/>
     </Route>
   )
 )

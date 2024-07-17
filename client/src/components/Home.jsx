@@ -106,16 +106,16 @@ const dummyContent = [
 const TypewriterEffectSmoothDemo = () => {
     const words = [
         {
-            text: "Run",
+            text: "Make",
         },
         {
-            text: "Game",
+            text: "your own meme token",
         },
         {
-            text: "with",
+            text: "on",
         },
         {
-            text: "DChain.",
+            text: "D-Chain.",
             className: "text-purple-500 dark:text-purple-500",
         },
     ];
