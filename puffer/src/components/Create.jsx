@@ -48,14 +48,16 @@ const Create = () => {
   };
 
   return (
-    <div className="min-h-screen bg-black text-white flex justify-center items-center">
-      <form className="bg-slate-900 shadow-md rounded px-8 pt-6 pb-8 mb-4 text-white">
+
+    <div className="relative min-h-screen w-full bg-slate-950">
+      <div className="absolute bottom-0 left-0 right-0 top-0 bg-custom-grid bg-custom-size flex justify-center items-center">
+      <form className="bg-black shadow-md rounded px-8 pt-6 pb-8 mb-4 text-white ">
         <div className="mb-4">
           <label className="block text-sm font-bold mb-2" htmlFor="name">
             Name
           </label>
           <input
-            className="shadow appearance-none border-purple-500 bg-black border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow appearance-none border-blue-100 bg-black border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
             id="name"
             type="text"
             placeholder="Name"
@@ -68,7 +70,7 @@ const Create = () => {
             Description
           </label>
           <textarea
-            className="shadow appearance-none border-purple-500 bg-black border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow appearance-none border-blue-100 bg-black border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
             id="description"
             placeholder="Description"
             rows="4"
@@ -81,7 +83,7 @@ const Create = () => {
             Token Supply
           </label>
           <input
-            className="shadow appearance-none border-purple-500 bg-black border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow appearance-none border-blue-100 bg-black border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
             id="tokenSupply"
             type="number"
             placeholder="Token Supply"
@@ -94,7 +96,7 @@ const Create = () => {
             Ticker
           </label>
           <input
-            className="shadow appearance-none border-purple-500 bg-black border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow appearance-none border-blue-100 bg-black border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
             id="ticker"
             type="text"
             placeholder="Ticker"
@@ -107,7 +109,7 @@ const Create = () => {
             Image Upload
           </label>
           <input
-            className="shadow appearance-none border-purple-500 bg-black border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow appearance-none border-blue-100 bg-black border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
             id="image"
             type="file"
             accept="image/*"
@@ -119,7 +121,7 @@ const Create = () => {
         </div>
         <div className="flex items-center justify-center">
           <button
-            className="bg-black border border-purple-500  text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            className="bg-black border border-blue-100 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
             type="button"
             onClick={handleSubmit}
           >
@@ -128,6 +130,7 @@ const Create = () => {
         </div>
       </form>
     </div>
+  </div>
   );
 };
 
