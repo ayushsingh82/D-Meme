@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, CardHeader, CardBody, Image } from "@nextui-org/react";
+import '@fortawesome/fontawesome-free/css/all.min.css'; 
 
 const MemeCard = () => {
   return (
@@ -24,10 +25,18 @@ const MemeCard = () => {
 const Dashboard = () => {
   return (
     <div className="relative min-h-screen w-full bg-slate-950">
-      <div className="absolute bottom-0 left-0 right-0 top-0 bg-custom-grid bg-custom-size flex justify-center items-center">
-      <div className='flex flex-row gap-x-6 '>
-      <MemeCard />
-        <MemeCard />
+      <div className="absolute bottom-0 left-0 right-0 top-0 bg-custom-grid bg-custom-size flex flex-col items-center pt-16"> {/* Adjust the padding here */}
+      <div className="relative">
+      <input 
+        type="text" 
+        placeholder="Search" 
+        className="bg-black text-white placeholder-gray-500 border border-blue-500 px-4 py-2 rounded-md focus:outline-none pl-10 pr-4" // Add padding to the left and right for icon space
+      />
+      <i className="fas fa-search absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500"></i>
+    </div>
+        <div className='flex flex-row gap-x-6 mt-4'>
+          <MemeCard />
+          <MemeCard />
         </div>  
       </div>
     </div>
