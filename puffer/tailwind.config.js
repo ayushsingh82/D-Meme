@@ -1,3 +1,5 @@
+const { nextui } = require("@nextui-org/react");
+
 const {
   default: flattenColorPalette,
 } = require("tailwindcss/lib/util/flattenColorPalette");
@@ -7,11 +9,19 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'custom-grid': 'linear-gradient(to right, #4f4f4f2e 1px, transparent 1px), linear-gradient(to bottom, #4f4f4f2e 1px, transparent 1px)',
+      },
+      backgroundSize: {
+        'custom-size': '14px 24px',
+      },
+    },
   },
-  plugins: [addVariablesForColors],
+  plugins: [addVariablesForColors,nextui()],
 }
 
 function addVariablesForColors({ addBase, theme }) {

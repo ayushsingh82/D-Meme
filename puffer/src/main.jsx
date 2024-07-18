@@ -7,6 +7,8 @@ import { Route } from 'react-router-dom'
 import Home from './components/Home.jsx'
 import Navbar from './components/Navbar.jsx'
 import Create from './components/Create.jsx'
+import Dashboard from './components/Dashboard.jsx'
+import {NextUIProvider} from '@nextui-org/react'
 
 import '@rainbow-me/rainbowkit/styles.css';
 
@@ -40,12 +42,14 @@ const router = createBrowserRouter(
     <Route>
     <Route path='/' element={<Home/>}/>
     <Route path='/create' element={<Create/>}/>
+    <Route path='/dashboard' element={<Dashboard/>}/>
     </Route>
   )
 )
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+  <NextUIProvider>
   <WagmiProvider config={config}>
   <QueryClientProvider client={queryClient}>
     <RainbowKitProvider>
@@ -54,5 +58,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </RainbowKitProvider>
   </QueryClientProvider>
   </WagmiProvider>
+  </NextUIProvider>
   </React.StrictMode>,
 )

@@ -10,7 +10,7 @@ function Navbar() {
           </div>
           <div className='flex justify-center flex-1 space-x-8 text-center'>
             <h1 className='font-normal text-xl text-white'>
-              <a href='/'>Lottery</a>
+              <a href='/dashboard'>Dashboard</a>
             </h1>
             <h1 className='font-normal text-xl border-purple-500 text-white border px-[3px] rounded-lg bg-gradient-to-r from-purple-900 via-black to-black'>
               <a href='/create'>Create meme token</a>
