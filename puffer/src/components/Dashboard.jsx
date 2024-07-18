@@ -3,7 +3,7 @@ import { Card, CardHeader, CardBody, Image } from "@nextui-org/react";
 
 const MemeCard = () => {
   return (
-    <Card className="py-4 w-64 bg-black border border-purple-500"> {/* Fixed width of 16rem (64 * 0.25rem) */}
+    <Card className="py-4 w-64 bg-black border border-blue-500"> {/* Fixed width of 16rem (64 * 0.25rem) */}
       <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
         <p className="text-tiny uppercase font-bold text-white">creator - address</p>
         <small className="text-white">token - address</small>

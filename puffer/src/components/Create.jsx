@@ -57,7 +57,7 @@ const Create = () => {
             Name
           </label>
           <input
-            className="shadow appearance-none border-blue-100 bg-black border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow appearance-none border-blue-500 bg-black border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
             id="name"
             type="text"
             placeholder="Name"
@@ -70,7 +70,7 @@ const Create = () => {
             Description
           </label>
           <textarea
-            className="shadow appearance-none border-blue-100 bg-black border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow appearance-none border-blue-500 bg-black border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
             id="description"
             placeholder="Description"
             rows="4"
@@ -83,7 +83,7 @@ const Create = () => {
             Token Supply
           </label>
           <input
-            className="shadow appearance-none border-blue-100 bg-black border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow appearance-none border-blue-500 bg-black border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
             id="tokenSupply"
             type="number"
             placeholder="Token Supply"
@@ -96,7 +96,7 @@ const Create = () => {
             Ticker
           </label>
           <input
-            className="shadow appearance-none border-blue-100 bg-black border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow appearance-none border-blue-500 bg-black border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
             id="ticker"
             type="text"
             placeholder="Ticker"
@@ -109,7 +109,7 @@ const Create = () => {
             Image Upload
           </label>
           <input
-            className="shadow appearance-none border-blue-100 bg-black border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow appearance-none border-blue-500 bg-black border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
             id="image"
             type="file"
             accept="image/*"
@@ -121,7 +121,7 @@ const Create = () => {
         </div>
         <div className="flex items-center justify-center">
           <button
-            className="bg-black border border-blue-100 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            className="bg-gradient-to-r from-blue-900 via-blue-800 to-blue-900 border border-blue-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
             type="button"
             onClick={handleSubmit}
           >

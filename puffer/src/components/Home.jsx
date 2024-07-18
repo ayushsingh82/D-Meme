@@ -116,7 +116,7 @@ const TypewriterEffectSmoothDemo = () => {
         },
         {
             text: "DChain.",
-            className: "text-purple-500 dark:text-purple-500",
+            className: "text-blue-500 dark:text-blue-500",
         },
     ];
     return (
@@ -139,7 +139,7 @@ function Home() {
                 <br /> to design, launch, and monitor your ads seamlessly, ensuring maximum reach and
                 <br /> engagement with minimal hassle.
             </h3>
-            <button className='mt-[20px] border-2 border-purple-500 text-white px-[10px] py-[10px] font-medium text-xl bg-gradient-to-r from-purple-900 via-black to-black rounded-lg mx-auto'>
+            <button className='mt-[20px] border-2 border-blue-500 text-white px-[10px] py-[10px] font-medium text-xl bg-gradient-to-r from-blue-700 via-black to-black rounded-lg mx-auto'>
                 Join the community
             </button>
             <div className='mt-[80px] flex flex-col gap-y-[80px] text-white mb-[30px]'>
