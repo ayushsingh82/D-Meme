@@ -83,7 +83,7 @@ const Create = () => {
   return (
     <div className="relative min-h-screen w-full bg-slate-950">
       <div className="absolute bottom-0 left-0 right-0 top-0 bg-custom-grid bg-custom-size flex justify-center items-center">
-        <form className="bg-slate-900 shadow-md rounded px-8 pt-6 pb-8 mb-4 text-white ">
+        <form className="bg-slate-900 shadow-md rounded px-8 pt-6 pb-8 mb-4 text-white shadow-xl shadow-blue-500 mt-[-20px]">
           <div className="mb-4">
             <label className="block text-sm font-bold mb-2" htmlFor="name">
               Name

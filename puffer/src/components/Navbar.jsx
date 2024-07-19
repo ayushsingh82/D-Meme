@@ -12,6 +12,9 @@ function Navbar() {
             <h1 className='font-normal text-xl text-white'>
               <a href='/dashboard'>Dashboard</a>
             </h1>
+            <h1 className='font-normal text-xl text-white'>
+            <a href='/presale'>Presale</a>
+          </h1>
             <h1 className='font-normal text-xl border-blue-500 text-white border px-[3px] rounded-lg bg-gradient-to-r from-blue-700 via-black to-black'>
               <a href='/create'>Create meme token</a>
             </h1>
