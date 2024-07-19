@@ -62,7 +62,7 @@ const dummyContent = [
         ),
         // badge: "Features",
         image:
-            "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=3540&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://images.unsplash.com/photo-1634979150030-ddaf806c2296?q=80&w=2969&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
         title: "Lorem Ipsum Dolor Sit Amet",
@@ -83,7 +83,7 @@ const dummyContent = [
         ),
         badge: "Changelog",
         image:
-            "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&q=80&w=3540&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://images.unsplash.com/photo-1634979150030-ddaf806c2296?q=80&w=2969&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
         title: "Lorem Ipsum Dolor Sit Amet",
@@ -99,7 +99,7 @@ const dummyContent = [
         ),
         badge: "Launch Week",
         image:
-            "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&q=80&w=3506&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://images.unsplash.com/photo-1607798421660-7d2c0bcff934?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
 ];
 
@@ -135,9 +135,9 @@ function Home() {
                 <TypewriterEffectSmoothDemo />
             </div>
             <h3 className='mt-[20px] text-white text-xl'>
-                Create and manage ad campaigns effortlessly. Our user-friendly platform allows you
-                <br /> to design, launch, and monitor your ads seamlessly, ensuring maximum reach and
-                <br /> engagement with minimal hassle.
+            Introducing our launchpad: Easily create and manage your own meme tokens
+                <br /> with a fixed supply, and buy tokens listed by others. Our user-friendly platform streamlines 
+                <br />  the process, ensuring effortless creation, launch, and acquisition of tokens with minimal hassle.
             </h3>
             <button className='mt-[20px] border-2 border-blue-500 text-white px-[10px] py-[10px] font-medium text-xl bg-gradient-to-r from-blue-700 via-black to-black rounded-lg mx-auto'>
                 Join the community
