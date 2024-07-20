@@ -5,7 +5,7 @@ import memeDataArray from "./data";
 
 const MemeCard = ({ creator, address, tokenName, imageUrl, description }) => {
   return (
-    <Card className="relative py-4 w-80 bg-black border border-blue-500"> {/* Added relative positioning */}
+    <Card className="relative py-4 w-80 bg-black border border-blue-300"> {/* Added relative positioning */}
       <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
         <button 
           className="absolute top-2 right-2 bg-gradient-to-r from-blue-900 via-blue-800 to-blue-900 border border-blue-500 text-white py-1 px-3 rounded-md hover:bg-blue-600"
