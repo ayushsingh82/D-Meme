@@ -1,11 +1,10 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from 'react';
 import { waitForTransactionReceipt, writeContract } from '@wagmi/core';
 import { config } from './utils/data';
 import abi from './contracts/memeFactory.json';
 import { useAccount } from 'wagmi';
 import { parseEther } from 'viem';
-import { parse } from 'postcss';
+import memeDataArray from './data';
 
 const Create = () => {
   const [formData, setFormData] = useState({
@@ -44,10 +43,9 @@ const Create = () => {
     }
   };
 
-  console.log('Token Address: ' + tokenAddress)
-
 
   const handleSubmit = async () => {
+
 
     const data = await writeContract(config, {
       abi,
@@ -67,7 +65,24 @@ const Create = () => {
       confirmations: 2,
       hash: data,
     })
-    setTokenAddress(transactionReceipt?.logs[0].address);
+
+    const newTokenAddress = transactionReceipt?.logs[0].address;
+    setTokenAddress(newTokenAddress);
+
+    console.log(newTokenAddress)
+
+    const newMemeData = {
+      id: data,
+      imageUrl: formData.imageURL,
+      creator: address,
+      address: newTokenAddress,
+      tokenName: formData.name,
+      description: formData.description,
+    };
+
+    memeDataArray.push(newMemeData);
+
+    console.log('After', memeDataArray);
 
     setFormData({
       name: '',
@@ -78,12 +93,13 @@ const Create = () => {
       image: null,
       imageURL: '',
     });
+
   };
 
   return (
     <div className="relative min-h-screen w-full bg-slate-950">
       <div className="absolute bottom-0 left-0 right-0 top-0 bg-custom-grid bg-custom-size flex justify-center items-center">
-        <form className="bg-slate-900 shadow-md rounded px-8 pt-6 pb-8 mb-4 text-white shadow-xl shadow-blue-500 mt-[-20px]">
+        <form className="bg-slate-900 rounded px-8 pt-6 pb-8 mb-4 text-white shadow-xl shadow-blue-500 mt-[-20px]">
           <div className="mb-4">
             <label className="block text-sm font-bold mb-2" htmlFor="name">
               Name

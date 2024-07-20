@@ -21,7 +21,7 @@ const MemeCard = ({ creator, address, tokenName, imageUrl, description }) => {
           alt={description}
           className="object-cover rounded-xl"
           src={imageUrl}
-          width={340} 
+          width={340}
         />
       </CardBody>
     </Card>
@@ -40,8 +40,8 @@ const Dashboard = () => {
   );
 
   return (
-    <div className="relative h-screen w-full bg-slate-950">
-      <div className="absolute bottom-0 left-0 right-0 top-0 bg-custom-grid bg-custom-size flex flex-col items-center pt-16">
+    <div className="relative h-screen w-screen bg-slate-950 overflow-auto">
+      <div className="absolute bottom-0 left-0 right-0 top-0 bg-custom-grid bg-custom-size flex flex-col items-center pt-16 h-screen">
         <div className="relative">
           <input 
             type="text" 
@@ -52,7 +52,7 @@ const Dashboard = () => {
           />
           <i className="fas fa-search absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500"></i>
         </div>
-        <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mt-[40px] mx-6'>
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mt-[40px] mx-6 mb-10'>
           {filteredMemeData.map((meme) => (
             <MemeCard 
               key={meme.id}
