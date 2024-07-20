@@ -69,8 +69,6 @@ const Create = () => {
     const newTokenAddress = transactionReceipt?.logs[0].address;
     setTokenAddress(newTokenAddress);
 
-    console.log(newTokenAddress)
-
     const newMemeData = {
       id: data,
       imageUrl: formData.imageURL,
@@ -79,6 +77,8 @@ const Create = () => {
       tokenName: formData.name,
       description: formData.description,
     };
+
+    console.log(newMemeData);
 
     memeDataArray.push(newMemeData);
 
