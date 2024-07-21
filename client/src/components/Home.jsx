@@ -37,25 +37,11 @@ export function TracingBeamDemo() {
 
 const dummyContent = [
     {
-        title: "Lorem Ipsum Dolor Sit Amet",
+        title: "Famous Doge meme token",
         description: (
             <>
-                <p>
-                    Sit duis est minim proident non nisi velit non consectetur. Esse
-                    adipisicing laboris consectetur enim ipsum reprehenderit eu deserunt
-                    Lorem ut aliqua anim do. Duis cupidatat qui irure cupidatat incididunt
-                    incididunt enim magna id est qui sunt fugiat. Laboris do duis pariatur
-                    fugiat Lorem aute sit ullamco. Qui deserunt non reprehenderit dolore
-                  
-                </p>
-                <p>
-                    Dolor minim irure ut Lorem proident. Ipsum do pariatur est ad ad
-                    veniam in commodo id reprehenderit adipisicing. Proident duis
-                    exercitation ad quis ex cupidatat cupidatat occaecat adipisicing.
-                </p>
-                <p>
-                    Tempor quis dolor veniam quis dolor. Sit reprehenderit eiusmod
-                    reprehenderit deserunt amet laborum consequat adipisicing officia qui
+                          <p>
+                Explore Doge, the legendary meme token that has captured the internet's heart with its iconic Shiba Inu mascot.
                    
                 </p>
             </>
@@ -65,14 +51,11 @@ const dummyContent = [
             "https://images.unsplash.com/photo-1634979150030-ddaf806c2296?q=80&w=2969&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
    {
-        title: "Lorem Ipsum Dolor Sit Amet",
+        title: "Famous Meme Token Trump",
         description: (
             <>
                 <p>
-                    Ex irure dolore veniam ex velit non aute nisi labore ipsum occaecat
-                    deserunt cupidatat aute. Enim cillum dolor et nulla sunt exercitation
-                    non voluptate qui aliquip esse tempor. Ullamco ut sunt consectetur
-                    
+                Discover the infamous Trump meme token, known for its viral popularity and cultural impact in the meme community
                 </p>
             </>
         ),
