@@ -64,28 +64,7 @@ const dummyContent = [
         image:
             "https://images.unsplash.com/photo-1634979150030-ddaf806c2296?q=80&w=2969&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
-    {
-        title: "Lorem Ipsum Dolor Sit Amet",
-        description: (
-            <>
-                <p>
-                    Ex irure dolore veniam ex velit non aute nisi labore ipsum occaecat
-                    deserunt cupidatat aute. Enim cillum dolor et nulla sunt exercitation
-                    non voluptate qui aliquip esse tempor. Ullamco ut sunt consectetur
-                    
-                </p>
-                <p>
-                    In dolore veniam excepteur eu est et sunt velit. Ipsum sint esse
-                    veniam fugiat esse qui sint ad sunt reprehenderit do qui proident
-                    
-                </p>
-            </>
-        ),
-        badge: "Changelog",
-        image:
-            "https://images.unsplash.com/photo-1634979150030-ddaf806c2296?q=80&w=2969&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    },
-    {
+   {
         title: "Lorem Ipsum Dolor Sit Amet",
         description: (
             <>
